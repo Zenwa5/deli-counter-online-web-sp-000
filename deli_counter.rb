@@ -4,7 +4,7 @@ def line(katz_deli)
   elsif katz_deli.length > 0
     number = 1
     katz_deli.each do |customer|
-    puts "The line is currently #{number}. #{customer} "
+    puts "The line is currently: #{number}. #{customer} "
     number += 1
   end
 end
