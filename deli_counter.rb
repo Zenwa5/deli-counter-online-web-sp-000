@@ -7,4 +7,4 @@ def line(katz_deli)
     puts "The line is currently #{number}. #{customer} "
     number += 1
   end
-end
+
