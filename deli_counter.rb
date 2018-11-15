@@ -12,7 +12,6 @@ def line(katz_deli)
 
 def take_a_number(katz_deli, person)
   if katz_deli.length == 0
-    katz_deli.each {}
-
-string2 = "Welcome #{person}, you are number #{katz_deli.index(customer)} in line."
+    katz_deli.each {|customer|}
+string2 = "Welcome #{person}, you are number #{katz_deli.index(customer) + 1} in line."
 end
