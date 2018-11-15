@@ -4,7 +4,7 @@ def line(katz_deli)
     return
   end
 
-    string = "The line is currently: "
+    string = "The line is currently:"
     katz_deli.each  {|customer|string << "#{katz_deli.index(customer) + 1}. #{customer}"}
     puts string
 
