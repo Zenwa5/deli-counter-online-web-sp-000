@@ -14,3 +14,10 @@ def take_a_number(katz_deli, person)
   katz_deli.push(person)
     puts "Welcome, #{person}. You are number #{katz_deli.index(person) + 1} in line."
 end
+
+def now_serving
+ until katz_deli.length == 0
+   puts
+end
+puts "There is no one waiting to be served!"
+end
