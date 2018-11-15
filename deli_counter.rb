@@ -4,7 +4,7 @@ def line(katz_deli)
   elsif katz_deli.length > 0
     string = "The line is currently"
     katz_deli.each do |customer|
-      string << "#{katz_deli.index(customer) + 1 } #{customer}. "
+      string << "#{katz_deli.index(customer) + 1 } #{customer}."
     puts string
 
   end
