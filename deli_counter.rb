@@ -10,6 +10,6 @@ def line(katz_deli)
 
   end
 
-def take_a_number(katz_deli, string)
-
+def take_a_number(katz_deli, person)
+puts 
 end
